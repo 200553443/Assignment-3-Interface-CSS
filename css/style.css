@@ -1,0 +1,258 @@
+/* Resetting default styles for various elements */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting the font family for the entire body */
+body {
+  font-family: 'Flavors', sans-serif;
+}
+
+/* Styling for the header section */
+header {
+  background-color: #59401a;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for the logo container and its image */
+.logo-container {
+  margin-left: 20px;
+}
+
+img {
+  max-width: 150px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for images */
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for navigation */
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  border-bottom: 2px solid #fff;
+  color: #f8c418;
+}
+
+/* Styling for the first content section with background images */
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../img/43faba5bedfcc27faf019050527746f9.jpg');
+  background-size: cover;
+}
+
+.left-image,
+.right-image {
+  flex: 1;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 20px;
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+.left-image {
+  background-image: url('../img/main-qimg-31eed80f35c87fc8a19c8732a1231882.png');
+}
+
+.right-image {
+  background-image: url('../img/OIP 23.jpg');
+}
+
+.right-image:hover,
+.left-image:hover {
+  transform: scale(1.1);
+  opacity: 0;
+}
+
+/* Styling for the content in the first section */
+.content {
+  flex: 1;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Rubik Glitch', sans-serif;
+}
+
+.content h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.2em;
+}
+
+/* Styling for the second content section with a gradient background */
+.section2 {
+  position: relative;
+  background: linear-gradient(to right, #f8c418, #59401a);
+  padding: 50px 20px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Rubik Vinyl', sans-serif;
+}
+
+.unique-content {
+  z-index: 1;
+}
+
+.unique-content h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-family: 'Train One', sans-serif;
+}
+
+.unique-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.unique-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #59401a;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.unique-content a:hover {
+  background-color: #59401a;
+  color: #fff;
+}
+
+/* Styling for the third content section with information about Snickers */
+.section3 {
+  background: linear-gradient(to right, #1a3659, #356899);
+  padding: 50px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.next-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.next-content h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.next-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.next-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #59401a;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.next-content a:hover {
+  background-color: #59401a;
+  color: #fff;
+}
+
+.snickers-description {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.snickers-image {
+  max-width: 100%;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+/* Styling for the footer section with logo, quick links, and social media links */
+.footer {
+  background: linear-gradient(to right, #59401a, #f8c418);
+  padding: 50px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo img {
+  max-width: 150px;
+  border-radius: 8px;
+}
+
+.footer-links,
+.footer-social {
+  flex: 1;
+}
+
+.footer-links h3,
+.footer-social h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li,
+.footer-social li {
+  margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-social a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #f8c418;
+}
